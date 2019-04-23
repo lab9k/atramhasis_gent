@@ -1,0 +1,14 @@
+pyramid
+pyramid_tm
+SQLAlchemy
+transaction
+zope.sqlalchemy
+waitress
+skosprovider
+skosprovider_sqlalchemy
+pyramid_skosprovider
+pyramid_jinja2
+alembic
+babel
+colander
+atramhasis

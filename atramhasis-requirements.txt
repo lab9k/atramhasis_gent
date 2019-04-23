@@ -1,0 +1,51 @@
+# pyramid
+pyramid==1.10.2
+pyramid-tm==2.2.1
+pyramid_rewrite==0.2
+
+skosprovider==0.6.1
+#-e git+https://github.com/koenedaele/skosprovider.git#egg=skosprovider
+skosprovider_sqlalchemy==0.5.2
+#-e git+https://github.com/koenedaele/skosprovider_sqlalchemy.git#egg=skosprovider_sqlalchemy
+pyramid_skosprovider==0.8.0
+#-e git+https://github.com/koenedaele/pyramid_skosprovider.git#egg=pyramid_skosprovider
+skosprovider_rdf==0.6.0
+# -e git+https://github.com/OnroerendErfgoed/skosprovider_rdf.git#egg=skosprovider_rdf
+skosprovider_getty==0.4.2
+#-e git+https://github.com/OnroerendErfgoed/skosprovider_getty.git#egg=skosprovider_getty
+skosprovider_heritagedata==0.3.1
+#-e git+https://github.com/OnroerendErfgoed/skosprovider_heritagedata.git#egg=skosprovider_heritagedata
+
+#language-tags
+language-tags==0.4.6
+
+# sqlalchemy
+sqlalchemy==1.2.18
+zope.sqlalchemy==1.1
+transaction==2.4.0
+psycopg2==2.7.7
+
+# jinja2
+jinja2==2.10
+pyramid-jinja2==2.8
+Babel==2.6.0
+
+# alembic
+alembic==1.0.7
+
+# colander
+colander==1.7.0
+
+# caching
+dogpile.cache==0.7.1
+
+# other
+six==1.12.0
+python-dateutil==2.8.0
+rdflib==4.2.2
+html5lib==1.0.1
+bleach==3.1.0
+
+# requests
+requests==2.21.0
+cachecontrol==0.12.5
