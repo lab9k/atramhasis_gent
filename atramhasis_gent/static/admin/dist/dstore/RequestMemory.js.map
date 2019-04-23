@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"RequestMemory.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,qEAIG,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAA2BC,CAA3B,QACKF,EAAA,EAAUC,CAAV,CAAmBC,CAAnB,cACMC,QAAAA,GACXC,cAAA,CAAeC,SAAf,CACAC,WAAA,EAFWH,CADN,uBADL,CAJH;",
+"sources":["RequestMemory.js.uncompressed.js"],
+"names":["define","declare","Request","Cache","postscript","inherited","arguments","fetch"]
+}

@@ -4,13 +4,19 @@ from pyramid.config import Configurator
 from pyramid.settings import aslist
 from sqlalchemy import engine_from_config
 
-
 from atramhasis.data.models import Base
 
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
+
+    # Update database settings to support environment variables
+    db_url = os.environ.get('DB_URL', settings['sqlalchemy.url'])
+    settings['sqlalchemy.url'] = db_url
+
+    secret = os.environ.get('SESSION_FACTORY_SECRET', settings['atramhasis.session_factory.secret'])
+    settings['atramhasis.session_factory.secret'] = secret
 
     # Set up sqlalchemy
     engine = engine_from_config(settings, 'sqlalchemy.')
@@ -37,7 +43,7 @@ def main(global_config, **settings):
     # Set up atramhasis db
     config.include('atramhasis:data.db')
 
-    #Add skos support
+    # Add skos support
     config.include('atramhasis_gent.skos')
 
     # Set up translations

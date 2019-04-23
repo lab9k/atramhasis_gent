@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"currency.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,yOAuBC,OAvBD,IAwBC,OAxBD,IAyBC,OAzBD,sBA6BC,OA7BD,sEAyCC,OAzCD,0DAmDC,SAnDD,IAoDC,OApDD,IAqDC,OArDD;",
+"sources":["currency.js.uncompressed.js"],
+"names":["define"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LocalStorage.js",
+"lineCount":3,
+"mappings":"A;AAAAA,MAAA,6DAIA,QAAA,CAASC,CAAT,CAAkBC,CAAlB,QAIQD,EAAA,EAASC,CAAT,sDAGOC,QAAAA,WAERC,IAFQD,CAGRE,EAASA,WAATA,CAAuBC,aAAvBD,KAA6CE,cAA7CF,IAHQF,CAKHK,GALGL,CAKIM,EAAIC,YAAAC,OALRR,CAK6BK,CAL7BL,CAKiCM,CALjCN,CAKoCK,CALpCL,QAMPS,EAAMF,YAAAE,IAAA,CAAiBJ,CAAjB,CACNI,EAAAC,MAAA,GAAaR,CAAAM,OAAb,CAPOR,GAOyBE,CAPzBF,EAQVC,CAAAU,KAAA,CAAUC,aAAA,CAAeC,IAAAC,MAAA,CAAWP,YAAAQ,QAAA,CAAqBN,CAArB,CAAX,CAAf,CAAV,CARUT,CAWZgB,YAAA,CAAaf,CAAb,CAXYD,CAHP,SAgBGiB,QAAAA,CAAUC,CAAVD,MAEJE,EAASC,cAAA,CAAeC,SAAf,CAEbd,aAAAe,QAAA,CAAqBpB,WAArB,CAAmCqB,gBAAA,CAAiBL,CAAjB,CAAnC,CAA6DL,IAAAW,UAAA,CAAeN,CAAf,CAA7D,CAJQD;MAKDE,EALCF,CAhBH,YAuBMQ,QAAAA,CAAUC,CAAVD,EACXlB,YAAAoB,WAAA,CAAwBzB,WAAxB,CAAsCwB,CAAtC,CADWD,OAEJL,eAAA,CAAeC,SAAf,CAFII,CAvBN,EAJR,CAJA;",
+"sources":["LocalStorage.js.uncompressed.js"],
+"names":["define","declare","Memory","constructor","data","prefix","dbPrefix","storeName","i","l","localStorage","length","key","slice","push","_restore","JSON","parse","getItem","setData","putSync","object","result","inherited","arguments","setItem","getIdentity","stringify","removeSync","id","removeItem"]
+}

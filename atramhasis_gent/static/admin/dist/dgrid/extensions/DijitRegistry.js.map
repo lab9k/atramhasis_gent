@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"DijitRegistry.js",
+"lineCount":3,
+"mappings":"A;AAAAA,MAAA,kHAKG,QAAA,CAAUC,CAAV,CAAmBC,CAAnB,CAAgCC,CAAhC,CAA6CC,CAA7C,MACEC,EAAcF,CAAAG,UADhB,OAGKL,EAAA,yBAQGM,QARH,8CAYUC,QAAAA,GACfJ,CAAAK,IAAA,MACAC,eAAA,CAAeC,SAAf,CAEAC,aAAAC,aAAA,YAAsCC,OAAtC,CAJeN,CAZV,SAmBGO,QAAAA,OACJC,aADID,EAIRL,cAAA,CAAeC,SAAf,CAJQI,KAMJE,EAASC,cAAA,EAGTD,EATIF,EASME,CAAAE,kBATNJ,EAUPK,kBAAAC,OAAA,EAVON,EAnBH,kBAiCYO,QAAAA,GACjBC,YAAA,EADiBD,CAjCZ;QAqCGC,QAAAA,GACRb,cAAA,CAAeC,SAAf,CACAP,EAAAiB,OAAA,CAAgBP,OAAhB,CAFQS,CArCH,aA0COC,QAAAA,YA1CP,WAgDKN,QAAAA,SAGHd,EAAAqB,mBAAA,CAA4Bb,YAAAc,WAA5B,CAHGR,CAhDL,eAsDSS,QAAAA,UAENC,UAFMD,CAtDT,SA2DGE,QAAAA,CAAgEC,CAAhED,CAA2FE,CAA3FF,QAKDxB,EAAAwB,QAAAG,KAAA,MAA+BF,CAA/B,CAA0CC,CAA1C,CALCF,CA3DH,QAmEEI,QAAAA,CAAUC,CAAVD,EAEHC,CAFGD,EAGN/B,CAAAiC,aAAA,CAAyBvB,YAAzB,CAAuCsB,CAAvC,CAGDxB,eAAA,CAAeC,SAAf,CANOsB,CAnEF,MA4EAG,QAAAA,CAAUC,CAAVD,CAAgBE,CAAhBF,EAIL,KAAKC,CAAL,CAJKD,CAIQE,CAJRF,CA5EA,OAmFCG,QAAAA,IAnFD,EAHL,CALH;",
+"sources":["DijitRegistry.js.uncompressed.js"],
+"names":["define","declare","domGeometry","_WidgetBase","registry","wbPrototype","prototype","Infinity","buildRendering","add","inherited","arguments","domNode","setAttribute","id","startup","_started","widget","getParent","isLayoutContainer","_resizeHandle","remove","destroyRecursive","destroy","getChildren","getEnclosingWidget","parentNode","isLeftToRight","isRTL","placeAt","reference","position","call","resize","changeSize","setMarginBox","_set","prop","value","watch"]
+}

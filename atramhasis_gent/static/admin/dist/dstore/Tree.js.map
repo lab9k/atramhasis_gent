@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"Tree.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,sCAGG,QAAA,CAAUC,CAAV,QACKA,EAAA,mBACOC,QAAAA,GACZC,SADYD,MADP,iBAKWE,QAAAA,CAAUC,CAAVD,uBAWQC,EAXRD,CAWiBC,CAAAC,YAXjBF,IALX,mBAmBaG,QAAAA,SAKXJ,UAAAK,OAAA,eALWD,CAnBb,aA2BOE,QAAAA,CAAUJ,CAAVI,QAOLN,UAAAK,OAAA,SAA2BE,gBAAA,CAAiBL,CAAjB,CAA3B,EAPKI,CA3BP,EADL,CAHH;",
+"sources":["Tree.js.uncompressed.js"],
+"names":["define","declare","constructor","root","mayHaveChildren","object","hasChildren","getRootCollection","filter","getChildren","getIdentity"]
+}

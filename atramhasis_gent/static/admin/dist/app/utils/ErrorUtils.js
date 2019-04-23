@@ -1,0 +1,3 @@
+//>>built
+define("app/utils/ErrorUtils",["dojo/_base/array","dojo/json"],function(d,e){return{parseError:function(b){var c={title:"Er is een fout opgetreden",message:b};if(b.response&&b.response.text)try{var a=e.parse(b.response.text);a.errors&&0<a.errors.length?(c.title=a.message?a.message:c.title,c.message="",d.forEach(a.errors,function(a){for(var b in a)c.message+="- "+b+": "+a[b]+"\x3c/br\x3e"})):c.message=a.message?a.message:""}catch(f){}return c}}});
+//# sourceMappingURL=ErrorUtils.js.map

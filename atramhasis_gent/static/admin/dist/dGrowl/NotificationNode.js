@@ -1,0 +1,4 @@
+//>>built
+define("dGrowl/NotificationNode","dojo/text dojo/_base/declare dijit/_WidgetBase dijit/_TemplatedMixin dojo/dom-construct dGrowl/NotificationNode dojo/dom-class dojo/_base/event dojo/_base/lang".split(" "),function(h,d,e,f,k,l,b,g,c){return d("dGrowl",[e,f],{templateString:dojo.cache("dGrowl","NotificationNode.html"),title:"",message:"",duration:5E3,sticky:!1,stickyClass:"",constructor:function(a){!0===a.sticky&&(this.stickyClass="dGrowl-notification-sticky")},postCreate:function(){this.inherited(arguments);
+!1===this.sticky&&setTimeout(c.hitch(this,this.killme),this.duration)},show:function(){b.add(this.domNode,"dGrowl-visible");this.onShow(this)},onShow:function(){},onHide:function(){},killme:function(a){a&&g.stop(a);b.remove(this.domNode,"dGrowl-visible");setTimeout(c.hitch(this,this.destroy),1100);this.onHide(this)}})});
+//# sourceMappingURL=NotificationNode.js.map

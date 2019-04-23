@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"LocalDB.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,uFACC,QAAA,CAASC,CAAT,QAKOA,EALP,CADD;",
+"sources":["LocalDB.js.uncompressed.js"],
+"names":["define","LocalDB"]
+}

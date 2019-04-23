@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"has.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,2CAAoD,QAAA,CAAUC,CAAV,EAGnDA,CAAAC,IAAA,gBAAwBC,MAAAC,UAAxB,GAA4CD,MAAAE,gBAA5C,GAAsEF,MAAAG,aAAtE,EACAL,EAAAC,IAAA,SAAiBC,MAAAI,aAAjB,CAJmD,OAK5CN,EAL4C,CAApD;",
+"sources":["has.js.uncompressed.js"],
+"names":["define","has","add","window","indexedDB","webkitIndexedDB","mozIndexedDB","openDatabase"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"config.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,sDAAgE,QAAA,CAASC,CAAT,CAAiBC,CAAjB,CAAsBC,CAAtB,EAmK3DC,CAnK2D,GAsK1DC,EAtK0D,CAsKpDF,CAAAG,UAtKoD,SAsKjCC,CAtKiC,GAuKrDF,EAvKqD,CAwK7DD,CAAA,CAAOG,CAAP,CAxK6D,CAwKjDF,CAAA,CAAIE,CAAJ,CAxKiD,KAyL3DH,CAAAI,OAzL2D,qBAyLnCC,UAzLmC,GA2L1DC,CA3L0D,CA2L9CD,SAAAE,UA3L8C,EA2LvBF,SAAAE,UAAAC,OA3LuB,CA2LOH,SAAAE,UAAA,GA3LP,CA4L5DF,SAAAC,SA5L4D,EA4LtCD,SAAAI,aA5LsC,EA8L7DT,CAAAI,OA9L6D,CA8L7CE,CAAAI,YAAA,EA9L6C,OAkMxDV,EAlMwD,CAAhE;",
+"sources":["config.js.uncompressed.js"],
+"names":["define","global","has","require","result","src","rawConfig","p","locale","navigator","language","languages","length","userLanguage","toLowerCase"]
+}

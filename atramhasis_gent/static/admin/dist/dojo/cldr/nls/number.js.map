@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"number.js",
+"lineCount":3,
+"mappings":"A;AAAAA,MAAA,sDAKC,6CALD,mGAWC,iDAXD,aAYC,qBAZD,QAaC,6CAbD,iCAgBC,gDAhBD,aAiBC,8CAjBD;mDAsBC,oBAtBD,8CAyBC,8CAzBD,2EAsCC,OAtCD,sBA0CC,OA1CD,sEAsDC,OAtDD,0DAgEC,SAhED,IAiEC,OAjED,IAkEC,OAlED;",
+"sources":["number.js.uncompressed.js"],
+"names":["define"]
+}

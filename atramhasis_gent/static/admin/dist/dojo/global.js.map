@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"global.js",
+"lineCount":2,
+"mappings":"A;AAAAA,MAAA,eAAsB,QAAA,6BACPC,OADO,qBAC0BA,OAD1B,CAKPA,MALO,qBAOFC,OAPE,CASPA,MATO,qBAWFC,KAXE,CAaPA,IAbO,MAAtB;",
+"sources":["global.js.uncompressed.js"],
+"names":["define","global","window","self"]
+}

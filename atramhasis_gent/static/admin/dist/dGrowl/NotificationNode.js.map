@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"NotificationNode.js",
+"lineCount":3,
+"mappings":"A;AAAAA,MAAA,2BAAkC,iKAAA,MAAA,KAAlC,CACI,QAAA,CAASC,CAAT,CAAYC,CAAZ,CAAqBC,CAArB,CAA2BC,CAA3B,CAAsCC,CAAtC,CAA8CC,CAA9C,CAAgEC,CAAhE,CAA0EC,CAA1E,CAAiFC,CAAjF,QAEIP,EAAA,WACNC,CADM,CACAC,CADA,kBAGWM,IAAAC,MAAA,kCAHX,uEASQC,QAAAA,CAASC,CAATD,OAIVC,CAAAC,OAJUF,GAKZG,gBALYH,+BATR,YAgBOI,QAAAA,GAEZC,cAAA,CAAeC,SAAf,CAFYF;KAGTF,WAHSE,EAIXG,UAAA,CAAWV,CAAAW,MAAA,MAAiBC,WAAjB,CAAX,CAA0CC,aAA1C,CAJWN,CAhBP,MAsBCO,QAAAA,GAGNhB,CAAAiB,IAAA,CAAaC,YAAb,kBACAC,YAAA,MAJMH,CAtBD,QA4BGG,QAAAA,IA5BH,QA6BGC,QAAAA,IA7BH,QA8BGN,QAAAA,CAASO,CAATP,EAELO,CAFKP,EAGPb,CAAAqB,KAAA,CAAWD,CAAX,CAEDrB,EAAAuB,OAAA,CAAgBL,YAAhB,kBACAN,WAAA,CAAWV,CAAAW,MAAA,MAAiBW,YAAjB,CAAX,MACAJ,YAAA,MAPQN,CA9BH,EAFJ,CADJ;",
+"sources":["NotificationNode.js.uncompressed.js"],
+"names":["define","t","declare","base","templated","domCon","NotificationNode","domClass","event","lang","dojo","cache","constructor","a","sticky","stickyClass","postCreate","inherited","arguments","setTimeout","hitch","killme","duration","show","add","domNode","onShow","onHide","evt","stop","remove","destroy"]
+}

@@ -1,0 +1,5 @@
+//>>built
+define("dstore/Filter",["dojo/_base/declare"],function(e){function b(g){return function(){var a=this.constructor,c=new a;c.type=g;c.args=Array.prototype.slice.call(arguments);return this.type?b("and").call(a.prototype,this,c):c}}function f(b){return function(){for(var a=this.constructor,c=[],d=0;d<arguments.length;d++){var e=arguments[d];c.push(e instanceof a?e:new a(e))}a=new a;a.type=b;a.args=c;this.type===b?a.args=this.args.concat(c):this.type?c.unshift(this):1===c.length&&(a.type=c[0].type,a.args=
+c[0].args.slice());return a}}e=e(null,{constructor:function(b){var a=typeof b;switch(a){case "object":var a=this,c;for(c in b)var d=b[c],a=d instanceof this.constructor?a[d.type](c,d.args[0]):d&&d.test?a.match(c,d):a.eq(c,d);this.type=a.type;this.args=a.args;break;case "function":case "string":this.type=a,this.args=[b]}},and:f("and"),or:f("or"),eq:b("eq"),ne:b("ne"),lt:b("lt"),lte:b("lte"),gt:b("gt"),gte:b("gte"),contains:b("contains"),"in":b("in"),match:b("match")});e.filterCreator=b;e.logicalOperatorCreator=
+f;return e});
+//# sourceMappingURL=Filter.js.map
