@@ -11,4 +11,4 @@ RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
 RUN chmod +x start.sh
-CMD ["./start.sh"]
+CMD ["/app/start.sh"]
