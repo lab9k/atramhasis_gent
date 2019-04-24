@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:Concept rdf:about="urn:x-skosprovider:gent_words:2">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="urn:x-atramhasis_gent:words">
+        <dcterms:identifier>GENT_WORDS</dcterms:identifier>
+        <skos:prefLabel xml:lang="nl">Gent words</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="urn:x-skosprovider:gent_words:1"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:broader>
+      <skos:Concept rdf:about="urn:x-skosprovider:gent_words:1">
+        <skos:narrower rdf:resource="urn:x-skosprovider:gent_words:2"/>
+        <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dcterms:identifier>
+        <skos:inScheme rdf:resource="urn:x-atramhasis_gent:words"/>
+        <skos:prefLabel xml:lang="nl">test&amp;23</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dcterms:identifier>
+    <skos:prefLabel xml:lang="nl">skjfnsdkjf</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
