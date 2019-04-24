@@ -9,4 +9,4 @@ RUN python setup.py compile_catalog
 RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
-CMD pserve /app/development.ini
+CMD pserve ./development.ini
