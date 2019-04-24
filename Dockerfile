@@ -11,4 +11,4 @@ RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
 RUN sed -i 's/\r$//' start.sh && chmod +x start.sh
-CMD bash ./start.sh
+CMD ./start.sh
