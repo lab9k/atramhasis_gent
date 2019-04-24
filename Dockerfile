@@ -10,4 +10,4 @@ RUN python setup.py compile_catalog
 RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
-CMD sh ./run.sh
+CMD /app/run.sh
