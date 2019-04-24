@@ -1,3 +1,12 @@
 FROM python:3.6
 
-VOLUME [ "./atramhasis_gent.sqlite:/atramhasis_gent.sqlite" ]
+WORKDIR /app
+COPY . /app
+RUN pip install atramhasis
+RUN pip install -r requirements-dev.txt
+RUN python setup.py compile_catalog
+
+RUN alembic upgrade head
+RUN python setup.py develop
+EXPOSE 6543
+CMD pserve development.ini
