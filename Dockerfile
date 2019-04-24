@@ -2,7 +2,7 @@ FROM python:3.6
 
 WORKDIR /app
 RUN apt update && apt install sqlite3
-COPY . /app
+COPY . .
 ADD start.sh start.sh
 RUN sed -i 's/\r$//' start.sh && chmod +x start.sh
 RUN pip install atramhasis
