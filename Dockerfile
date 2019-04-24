@@ -10,5 +10,5 @@ RUN python setup.py compile_catalog
 RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
-RUN chmod +x start.sh
-CMD bash /app/start.sh
+RUN sed -i 's/\r$//' start.sh && chmod +x start.sh
+CMD bash ./start.sh
