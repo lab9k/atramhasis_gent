@@ -13,4 +13,4 @@ RUN alembic upgrade head
 RUN python setup.py develop
 EXPOSE 6543
 
-ENTRYPOINT "$(pwd)/start.sh"
+CMD "$(pwd)/start.sh"
