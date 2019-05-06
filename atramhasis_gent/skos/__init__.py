@@ -23,7 +23,7 @@ def includeme(config):
     )
     INFO_TYPES = SQLAlchemyProvider(
         {
-           'id': 'gent_themes',
+           'id': 'gent_info_types',
            'conceptscheme_id': 3,
         },
         config.registry.dbmaker
