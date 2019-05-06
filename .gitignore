@@ -1,4 +1,5 @@
 ./production.ini
 .idea
+.vscode
 node_modules
 atramhasis_gent.sqlite
