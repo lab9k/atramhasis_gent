@@ -55,6 +55,11 @@ def main(global_config, **settings):
         override_with='atramhasis_gent:static/'
     )
 
+    config.override_asset(
+        to_override='atramhasis:templates/header-main.jinja2',
+        override_with='atramhasis_gent:templates/header-main.jinja2'
+    )
+
     config.scan()
 
     return config.make_wsgi_app()
