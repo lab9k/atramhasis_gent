@@ -59,6 +59,14 @@ def main(global_config, **settings):
         to_override='atramhasis:templates/header-main.jinja2',
         override_with='atramhasis_gent:templates/header-main.jinja2'
     )
+    config.override_asset(
+        to_override='atramhasis:templates/header-page.jinja2',
+        override_with='atramhasis_gent:templates/header-page.jinja2'
+    )
+    config.override_asset(
+        to_override='atramhasis:templates/search_form.jinja2',
+        override_with='atramhasis_gent:templates/search_form.jinja2'
+    )
 
     config.scan()
 
