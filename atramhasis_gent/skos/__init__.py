@@ -3,7 +3,7 @@
 import logging
 from skosprovider_sqlalchemy.providers import SQLAlchemyProvider
 from skosprovider_getty.providers import AATProvider
-from atramhasis_gent.skos.providers import VirtuosoProvider
+from skosprovider.providers import VocabularyProvider
 from atramhasis_gent.uri.generators import UriPatternGenerator
 
 log = logging.getLogger(__name__)
@@ -12,13 +12,13 @@ log = logging.getLogger(__name__)
 def includeme(config):
     skosregis = config.get_skos_registry()
 
-    providers = get_internal_providers(config)
+    gentproviders = get_internal_providers(config)
 
-    [skosregis.register_provider(x) for x in providers]
+    [skosregis.register_provider(x) for x in gentproviders]
 
-    providers = get_external_providers()
+    gentproviders = get_external_providers()
 
-    [skosregis.register_provider(x) for x in providers]
+    [skosregis.register_provider(x) for x in gentproviders]
 
 
 def get_internal_providers(config):
@@ -52,9 +52,9 @@ def get_internal_providers(config):
             'https://stad.gent/id/concepts/gent_info_types/%s'
         )
     )
-    return [atram_gent, themes_gent, info_types]
+    return [atram_gent, themes_gent, info_types, ]
 
 
 def get_external_providers():
-    aat = AATProvider({'id': 'AAT', 'subject': ['external']})
-    return [aat, ]
+    # aat = AATProvider({'id': 'AAT', 'subject': ['external']})
+    return []
